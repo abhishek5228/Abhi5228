@@ -1,0 +1,512 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* global */
+
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #F33547;
+}
+
+::-moz-selection {
+  background: #F33547;
+}
+
+/* header */
+
+header {
+  background: #000;
+  min-height: 40px;
+  text-transform: uppercase;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 5px;
+  position: relative;
+}
+
+header ul li a:hover {
+  transition: color 0.3s ease;
+  color: #F33547;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+/* pre-intro */
+
+#pre-intro {
+  min-height: 500px;
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.1),
+  rgba(0, 0, 0, 0.7)
+  ), url("../assets/keyboard3.jpg") no-repeat;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+#pre-intro h2 {
+  margin-top: 340px;
+  font-size: 75px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+#pre-intro p {
+  font-size: 40px;
+}
+
+#pre-intro #overlay {
+  border-radius: 50%;
+  position: relative;
+  bottom: 460px;
+  width: 300px;
+  height: 300px;
+}
+
+/* introduction */
+
+#introduction {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#introduction h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#introduction p {
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#introduction #second {
+  padding-bottom: 10px;
+}
+
+#introduction #third {
+  padding-bottom: 10px;
+}
+
+#introduction #third a {
+  color: #000;
+  text-decoration: none;
+}
+
+#introduction #third a:hover {
+  transition: color 0.3s ease;
+  color: #F33547;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+#introduction #fourth {
+  padding-bottom: 10px;
+}
+
+#introduction #fifth {
+  padding-bottom: 30px;
+}
+
+#introduction #resume {
+  border: none;
+  padding: 15px 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #F33547;
+  background-color: #fff;
+  border: 2px solid #F33547;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#introduction #resume:hover {
+  background-color: #F33547;
+  color: #fff;
+}
+
+/* boxes */
+
+.boxes {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #334055;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+
+.boxes .box {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.boxes #boxes-heading {
+  font-size: 37px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.boxes h3 {
+  text-transform: uppercase;
+}
+
+.boxes #first-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #F33547;
+  border: 2px solid #F33547;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.boxes #first-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes #second-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #FF8C00;
+  border: 2px solid #FF8C00;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.boxes #second-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes #third-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #0286fd;
+  border: 2px solid #0286fd;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.boxes #third-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes #fourth-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #56d32c;
+  border: 2px solid #56d32c;
+  transition-duration: 0.3s;
+}
+
+.boxes #fourth-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes #fifth-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #d015b5;
+  border: 2px solid #d015b5;
+  transition-duration: 0.3s;
+}
+
+.boxes #fifth-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes #sixth-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #17b6cf;
+  border: 2px solid #17b6cf;
+  transition-duration: 0.3s;
+}
+
+.boxes #sixth-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
+.boxes .coming-soon {
+  color: #334055;
+}
+
+.boxes #boxes-footer {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* contact */
+
+#contact {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact #contact-heading h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#contact #contact-heading p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#contact .box {
+  color: #F33547;
+  margin-top: 5px;
+  padding: 15px 32px;
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#contact .box:hover {
+  background-color: #F33547;
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  header nav,
+  header nav li,
+  .boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #pre-intro h2 {
+    font-size: 45px;
+    margin-top: 400px;
+  }
+
+  #pre-intro p {
+    font-size: 25px;
+  }
+
+  #pre-intro #overlay {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  #introduction h1 {
+    font-size: 35px;
+  }
+
+  .boxes h1 {
+    font-size: 34px;
+  }
+
+  .boxes #boxes-footer {
+    font-size: 34px;
+  }
+
+  .boxes #first-link,
+  .boxes #second-link,
+  .boxes #third-link,
+  .boxes #fourth-link
+  .boxes #fifth-link {
+    margin-bottom: 20px;
+  }
+
+  #contact .box {
+    margin-bottom: 20px;
+  }
+
+  #contact #contact-heading h1 {
+    font-size: 35px;
+  }
+
+  #contact #contact-heading p {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header a {
+    font-size: 13px;
+  }
+
+  header li {
+    padding: 0 5px 0 0px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #pre-intro h2 {
+    font-size: 40px;
+    margin-top: 407px;
+  }
+
+  #pre-intro p {
+    font-size: 23px;
+  }
+
+  #pre-intro #overlay {
+    width: 230px;
+    height: 230px;
+    margin-top: 50px;
+  }
+
+  #introduction h1 {
+    font-size: 30px;
+  }
+
+  #introduction p {
+    font-size: 17px;
+  }
+
+  .boxes h1 {
+    font-size: 30px;
+  }
+
+  .boxes #boxes-footer {
+    font-size: 20px;
+  }
+
+  #contact #contact-heading h1 {
+    font-size: 30px;
+  }
+
+  #contact #contact-heading p {
+    font-size: 18px;
+  }
+}
