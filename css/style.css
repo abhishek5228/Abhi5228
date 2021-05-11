@@ -285,6 +285,35 @@ header nav {
   transition-duration: 0.3s;
 }
 
+.boxes #seventh-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #ed1379;
+  border: 2px solid #ed1379;
+  transition-duration: 0.3s;
+}
+.boxes #eight-link {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 11em;
+  height: 3em;
+  color: #fff;
+  background-color: #388a52;
+  border: 2px solid #388a52;
+  transition-duration: 0.3s;
+}
+
 .boxes #fourth-link:hover {
   background-color: #fff;
   border-color: #fff;
@@ -330,8 +359,19 @@ header nav {
 .boxes #sixth-link:hover {
   background-color: #fff;
   border-color: #fff;
+  color: #334054;
+}
+.boxes #seventh-link:hover {
+  background-color: #fff;
+  border-color: #fff;
   color: #334055;
 }
+.boxes #eight-link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #334055;
+}
+
 
 .boxes .coming-soon {
   color: #334055;
