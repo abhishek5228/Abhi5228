@@ -214,9 +214,7 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 295px;
+  top: 0px
 }
 
 /*BUTTONS*/
