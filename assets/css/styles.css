@@ -418,11 +418,7 @@ img{
     color: var(--second-color);
   }
 
-  
-  
-  
-  
-  {
+  .home{
     height: 100vh;
   }
   .home__data{
@@ -440,7 +436,7 @@ img{
   }
   .home__img{
     width: 340px;
-    bottom: 53%;
+    bottom:   40%;
   }
 
   .about__container, .skills__container{
