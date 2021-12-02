@@ -215,8 +215,8 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 1000px;
-  width: 350px;
+  bottom: 0;
+  width: 295px;
 }
 
 /*BUTTONS*/
@@ -435,8 +435,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 340px;
-    bottom:   40%;
+    width: 457px;
+    bottom: 15%;
   }
 
   .about__container, .skills__container{
@@ -445,7 +445,7 @@ img{
     text-align: initial;
   }
   .about__img img{
-    width: 300px;
+    width: 450px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
