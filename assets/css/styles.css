@@ -214,7 +214,7 @@ img{
 }
 .home__img{
   position: absolute;
-  top: 0px
+  top: 10px
 }
 
 /*BUTTONS*/
@@ -416,7 +416,11 @@ img{
     color: var(--second-color);
   }
 
-  .home{
+  
+  
+  
+  
+  {
     height: 100vh;
   }
   .home__data{
